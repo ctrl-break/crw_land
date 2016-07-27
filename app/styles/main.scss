@@ -66,6 +66,7 @@ html{
 
 body{
     font-family: 'cpw-light', verdana;
+    background-color: $sect1;
 }
 
 a:hover{
@@ -182,6 +183,9 @@ header{
     padding: 20px;
 }
 
+.mainmenu{
+  background-color: #fff;
+}
 
 /************************************************************
                     S E C T I O N 1
@@ -513,9 +517,135 @@ header{
   padding-top: 0px;
   padding-bottom: 70px;
   background-color: #b87f95;
+
+  .wrap{
+    background-image: none;
+    padding: 30px 30px;
+  }
+
+  .text{
+    font-size: 18px;
+  }
+
+  .center{
+    padding: 30px 30px 0;
+    font-size: 30px;
+    color: #b87f95;
+  }
+}
+
+
+.section6:after{
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: transparent;;
+  border-style: solid;
+  border-width: 40px 960px;
+  border-right-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -40px;
+}
+.section6:before{
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: transparent;;
+  border-style: solid;
+  border-width: 40px 960px;
+  border-left-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -40px;
 }
 
 
 /************************************************************
+                    S E C T I O N  7
+*************************************************************/
+.section7{
+  position: relative;
+  padding-bottom: 0;
+  background-color: #fff;
+
+  .wrap{
+    background-image: url(../images/sect7.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    min-height: 620px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.orderbox {
+    max-width: 40%;
+    min-height: 250px;
+    margin: 100px auto 0;
+    opacity: 0.75;
+    border: 2px solid #0093dd;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.send_order {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 0.9;
+    padding-top: 30px;
+}
+
+.order {
+    background-color: #15438f;
+    color: #fff;
+    text-align: center;
+    height: 70%;
+    border-radius: 8px 8px 0 0;
+}
+
+.order .conn {
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+.cw {
+    background-color: #fff;
+    text-align: center;
+    font-family: 'cpw-light';
+    font-size: 24px;
+    height: 30%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+/************************************************************
                      F O O T E R
 *************************************************************/
+.prefooter{
+  position: relative;
+  bottom: 70px;
+  width: 100%;
+  height: 70px;
+  background-image: url(../images/prefooter.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  a {
+    margin-top: 50px;
+  }
+}
+
+.footer{
+  position: relative;
+  bottom: 40px;
+  min-height: 100px; background-color: $sect1;
+
+}
