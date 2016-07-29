@@ -1,10 +1,10 @@
 function fixmenu() {
 					var top = jQuery(document).scrollTop();
 					if (top > 172) {
-            			jQuery("#fixmenu").css({  visibility: "visible",  opacity: "1"});
+            			jQuery('#fixmenu').css({  visibility: 'visible',  opacity: '1'});
 					}
 					else {
-            			jQuery("#fixmenu").css({    visibility: "hidden",  opacity: "0" });
+            			jQuery('#fixmenu').css({    visibility: 'hidden',  opacity: '0' });
 					};
 };
 

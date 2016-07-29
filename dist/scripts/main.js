@@ -1,1 +1,1 @@
-"use strict";
+"use strict";function fixmenu(){var e=jQuery(document).scrollTop();e>172?jQuery("#fixmenu").css({visibility:"visible",opacity:"1"}):jQuery("#fixmenu").css({visibility:"hidden",opacity:"0"})}jQuery(document).ready(function(){jQuery(".go-to").click(function(){var e=$(this).attr("href");return 0!=$(e).length&&jQuery("html, body").animate({scrollTop:jQuery(e).offset().top},500),!1})}),jQuery(document).ready(function(){jQuery(window).scroll(fixmenu)});
