@@ -1,0 +1,281 @@
+@media (max-width: 1200px) {
+  .header-text-cryptoweb {
+      font: normal normal bolder 40px CPW-extra, Verdana;
+      letter-spacing: 2px;
+      padding-top: 8px;
+  }
+
+  .header-text-protectflow {
+      font: normal normal 11px CPW-light, Verdana;
+      letter-spacing: 4px;
+  }
+
+  .contacts, .contacts a {
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      line-height: 35px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+      font-size: 18px;
+      padding: 20px 15px;
+  }
+
+  .logo{
+    margin-top: 0px;
+    width: 70px;
+  }
+
+  .section1 img{
+      width: 350px;
+      position: absolute;
+      bottom: 0;
+      left: 10%;
+  }
+
+  .section1{
+        h1{
+          margin: 30px 0 50px;
+          font-size: 35px;
+        }
+       .container{
+        padding-left: 40%;
+      }
+  }
+
+  .send_order {
+      font-size: 50px;
+
+  }
+
+}
+
+/************************************************************
+                     992px
+*************************************************************/
+@media (max-width: 992px) {
+  .logo_wrap {
+      max-width: 100%;
+  }
+  .navbar-default .navbar-nav > li > a {
+      font-size: 16px;
+      padding: 20px 10px;
+  }
+  .logo{
+    margin-top: 10px;
+    width: 50px;
+  }
+
+  .section1{
+       .container{
+        padding-left: 45%;
+      }
+  }
+
+  .right_part{
+    border-left-style: none;
+    padding-left: 0;
+
+    img{
+      width: 120px;
+    }
+  }
+
+  .orderbox {
+      max-width: 80%;
+      min-height: 250px;
+      margin: 100px auto 0;
+      opacity: 0.75;
+      border: 2px solid #0093dd;
+      border-radius: 10px;
+      background-color: #fff;
+      cursor: pointer;
+  }
+}
+
+.prefooter a {
+    margin-top: 60px;
+}
+
+/************************************************************
+                     768px
+*************************************************************/
+@media (max-width: 768px) {
+  h2 {
+      font-family: 'cpw-demi';
+      font-size: 20px;
+      text-align: center;
+  }
+
+
+  h3{
+    font-family: 'cpw-demi';
+    font-size: 18px;
+      text-align: center;
+  }
+
+  h4 {
+      font-family: 'cpw-demi';
+      font-size: 18px;
+      text-align: center;      
+  }
+
+  .text{
+    font-size: 16px;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  .section1{
+      img{
+        width: 150px;
+      }
+
+       .container{
+        padding-left: 10%;
+        padding-bottom: 150px;
+      }
+
+      p{
+        font-size: 16px;
+      }
+  }
+
+  .section4 h2 + p {
+      font-size: 16px;
+  }
+
+  .section5 p {
+      font-family: 'cpw-light';
+      font-size: 16px;
+  }
+
+  .section5 img {
+      margin: 30px auto;
+      width: 200px;
+  }
+
+  .addition {
+      border: 1px #1f1a17;
+      border-top-style: solid;
+      width: 100%;
+      float: none;
+      position: relative;
+      bottom: 0px;
+      padding-top: 20px;
+      font-family: 'cpw-light';
+      font-size: 14px;
+  }
+
+  .section6{
+      .text {
+        font-size: 14px;
+      }
+
+      .center {
+          padding: 30px 30px 0;
+          font-size: 20px;
+          color: #b87f95;
+      }
+
+      img{
+        width: 200px;
+        margin: 20px auto;
+      }
+  }
+
+  .section7 .wrap {
+      background-size: 225px 304px;
+      min-height: 500px;
+      margin-top: 0;
+  }
+
+  .orderbox {
+      max-width: 80%;
+      min-height: 250px;
+      margin: 30px auto 0px;
+      opacity: 0.75;
+
+  }
+
+  footer{
+    text-align: center;
+  }
+
+
+      .logo{
+        float: none;
+        width: 30px;
+        margin-top: 0;
+        margin-right: 0;
+      }
+
+      .logo_wrap {
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+
+      .contacts, .contacts a {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          line-height: 30px;
+
+          img{
+            width: 17px;
+          }
+      }
+
+
+      .bluebtn {
+          font-size: 16px;
+          font-family: 'cpw-normal';
+            padding: 5px 15px;
+        }
+
+        .prefooter a {
+            margin-top: 67px;
+        }
+}
+
+/************************************************************
+                     480px
+*************************************************************/
+@media (max-width: 480px) {
+  .header-text-cryptoweb {
+      font: normal normal bolder 30px CPW-extra, Verdana;
+
+  }
+
+  .section1{
+    h1{
+      font-size: 20px;
+      font-family: 'cpw-demi';
+      margin-bottom: 10px;
+    }
+  }
+
+  .send_order {
+        font-size: 30px;
+    }
+
+    .order .conn {
+      font-size: 20px;
+      padding: 10px 0;
+  }
+
+  .cw {
+        font-size: 18px;
+    }
+
+    .section5 img {
+    width: 150px;
+}
+
+    .section6 img {
+        width: 150px;
+        margin: 20px auto;
+    }
+}
