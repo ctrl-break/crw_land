@@ -83,7 +83,7 @@ a:hover{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#026db2', endColorstr='#183985',GradientType=0 );
     color: #fff;
     max-width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     padding: 7px 20px;
     border: none;
     border-radius: 10px;
@@ -185,6 +185,20 @@ header{
 
 .mainmenu{
   background-color: #fff;
+}
+
+#fixmenu{
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border: 1px #c2c1c1;
+    border-bottom-style: solid;
 }
 
 /************************************************************
@@ -648,4 +662,31 @@ header{
   bottom: 40px;
   min-height: 100px; background-color: $sect1;
 
+}
+
+#order_modal{
+  .bluebtn{
+    margin-bottom: 0;
+  }
+}
+
+#order_modal input[type=text]{
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
 }
