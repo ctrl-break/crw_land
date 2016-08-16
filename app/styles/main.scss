@@ -128,6 +128,19 @@ h5{
   clear: both;
 }
 
+
+.movedown{
+  position: relative;
+  top: 70px;
+  z-index: 100;
+}
+
+.moveup{
+  position: relative;
+  bottom: 70px;
+  z-index: 100;
+}
+
 /************************************************************
                     H E A D E R
 *************************************************************/
@@ -268,7 +281,7 @@ header{
     margin-top: 0;
     padding-top: 0;
 }
-
+/*
 .section2:after{
   display: block;
   content: "";
@@ -296,10 +309,10 @@ header{
   bottom: 0;
   left: 0;
   margin-bottom: -40px;
-}
+}*/
 .wrap{
   width: 90%;
-  margin: 50px auto;
+  margin: 50px auto ;
   background-color: #fff;
   background-image: url(../images/sect2bg.png);
   background-repeat: no-repeat;
@@ -330,9 +343,9 @@ header{
 *************************************************************/
 .section3{
   background-color: #b87f95;
-  padding-top: 30px;
+  padding-top: 0px;
   position: relative;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
 
   h3{
     margin-top: 40px;
@@ -364,14 +377,14 @@ header{
 
 .section3 .wrap{
   width: 90%;
-  margin: 50px auto;
+  margin: 10px auto;
   background-color: #fff;
   background-image: url(../images/sect3bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   padding: 40px 40px;
 }
-
+/*
 
 .section3:after{
   display: block;
@@ -400,7 +413,7 @@ header{
   bottom: 0;
   left: 0;
   margin-bottom: -40px;
-}
+}*/
 
 
 
@@ -410,11 +423,12 @@ header{
 .section4{
   position: relative;
   background: #78c5da;
-  background: -moz-linear-gradient(top,  #78c5da 0%, #3bb3c2 100%);
+/*  background: -moz-linear-gradient(top,  #78c5da 0%, #3bb3c2 100%);
   background: -webkit-linear-gradient(top,  #78c5da 0%,#3bb3c2 100%);
   background: linear-gradient(to bottom,  #78c5da 0%,#3bb3c2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78c5da', endColorstr='#3bb3c2',GradientType=0 );
-  padding-top: 20px;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78c5da', endColorstr='#3bb3c2',GradientType=0 );*/
+  background-image: url(../images/sect4pattern.png);
+  padding-top: 70px;
   padding-bottom: 70px;
 
 
@@ -430,7 +444,7 @@ header{
     margin: 40px auto 20px;
   }
 }
-
+/*
 .section4:after{
   display: block;
   content: "";
@@ -458,7 +472,7 @@ header{
   bottom: 0;
   left: 0;
   margin-bottom: -40px;
-}
+}*/
 
 .section4 .wrap{
   background-image: none;
@@ -502,11 +516,11 @@ header{
 
   .wrap{
       background-image: none;
-      padding: 20px 40px 40px;
+      padding: 0px 40px 10px;
 
   }
 
-  img{
+  .wrap img{
     margin: 30px;
   }
 
@@ -526,7 +540,7 @@ header{
   }
 }
 
-
+/*
 .section5:after{
   display: block;
   content: "";
@@ -554,19 +568,21 @@ header{
   bottom: 0;
   left: 0;
   margin-bottom: -40px;
-}
+}*/
 /************************************************************
                     S E C T I O N 6
 *************************************************************/
 .section6{
   position: relative;
   padding-top: 0px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   background-color: #b87f95;
 
   .wrap{
     background-image: none;
     padding: 30px 30px;
+    margin-top: 0;
+    margin-bottom: 70px;
   }
 
   .text{
@@ -580,7 +596,7 @@ header{
   }
 }
 
-
+/*
 .section6:after{
   display: block;
   content: "";
@@ -609,7 +625,7 @@ header{
   left: 0;
   margin-bottom: -40px;
 }
-
+*/
 
 /************************************************************
                     S E C T I O N  7
@@ -626,6 +642,7 @@ header{
     min-height: 620px;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-top: 0;
   }
 }
 

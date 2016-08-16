@@ -1,3 +1,24 @@
+@media (max-width: 1600px) {
+  .moveup{
+    bottom: 60px;
+  }
+
+  .movedown{
+    top: 60px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .moveup{
+    bottom: 55px;
+  }
+
+
+    .movedown{
+      top: 55px;
+    }
+}
+
 @media (max-width: 1200px) {
   .header-text-cryptoweb {
       font: normal normal bolder 40px CPW-extra, Verdana;
@@ -49,6 +70,14 @@
 
   }
 
+  .moveup{
+    bottom: 43px;
+  }
+
+
+    .movedown{
+      top: 43px;
+    }
 }
 
 /************************************************************
@@ -92,6 +121,14 @@
       background-color: #fff;
       cursor: pointer;
   }
+
+  .moveup{
+    bottom: 33px;
+  }
+
+    .movedown{
+      top: 33px;
+    }
 }
 
 .prefooter a {
@@ -118,7 +155,7 @@
   h4 {
       font-family: 'cpw-demi';
       font-size: 18px;
-      text-align: center;      
+      text-align: center;
   }
 
   .text{
@@ -144,6 +181,16 @@
       }
   }
 
+  .section2{
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .section4{
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
   .section4 h2 + p {
       font-size: 16px;
   }
@@ -153,7 +200,7 @@
       font-size: 16px;
   }
 
-  .section5 img {
+  .section5 .wrap img {
       margin: 30px auto;
       width: 200px;
   }
@@ -181,7 +228,11 @@
           color: #b87f95;
       }
 
-      img{
+      .wrap{
+        margin-bottom: 20px;
+      }
+
+      .wrap img{
         width: 200px;
         margin: 20px auto;
       }
@@ -238,6 +289,14 @@
         .prefooter a {
             margin-top: 67px;
         }
+
+        .moveup{
+          bottom: 21px;
+        }
+
+          .movedown{
+            top: 21px;
+          }
 }
 
 /************************************************************
@@ -270,12 +329,33 @@
         font-size: 18px;
     }
 
-    .section5 img {
-    width: 150px;
-}
+    .section5 .wrap img {
+        width: 150px;
+    }
 
-    .section6 img {
+    .section6 .wrap img {
         width: 150px;
         margin: 20px auto;
+    }
+
+    .moveup{
+      bottom: 15px;
+    }
+
+
+      .movedown{
+        top: 15px;
+      }
+}
+
+
+@media (max-width: 360px) {
+  .moveup{
+    bottom: 10px;
+  }
+
+
+    .movedown{
+      top: 10px;
     }
 }
