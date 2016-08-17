@@ -1,13 +1,13 @@
 <?php
-	
+
 	(isset($_POST['nnm'])) ? $name = substr(htmlspecialchars(trim($_POST['nnm'])),0,30) : $name = "-";
 	(isset($_POST['mml'])) ? $email = substr(htmlspecialchars(trim($_POST['mml'])),0,30) : $email = "-";
 	(isset($_POST['nph'])) ? $phone = substr(htmlspecialchars(trim($_POST['nph'])),0,30) : $phone = "-";
 
     $to  = "ctrl-break@mail.ru" ;
-    $subject = "Заявка с сайта meo.su";
+    $subject = "Заявка с сайта fms.cryptoweb.ru";
     $message = "
-    		<html>	
+    		<html>
     			<body>
     			Имя : ".$name." <br>
     			Телефон : ".$phone." <br>
@@ -18,7 +18,7 @@
 	if ( mail($to, $subject, $message, $headers) )
 	{
 		header('Location: /?message=1');
-	} else 
+	} else
 	{
 		header('Location: /?message=0');
 	};

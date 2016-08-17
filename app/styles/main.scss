@@ -150,14 +150,21 @@ header{
 }
 
 .header-text-cryptoweb {
-    font: normal normal bolder 50px CPW-extra, Verdana;
+    font: normal normal 50px CPW-extra, Verdana;
     letter-spacing: 2px;
-    padding-top: 8px;
+    padding-top: 20px;
+    line-height: 40px;
 }
 
 .header-text-protectflow {
     font: normal normal 15px CPW-light, Verdana;
     letter-spacing: 4px;
+
+}
+
+.header-text-protectflow  a{
+  color: #000;
+      padding-left: 3px;
 }
 
 .logo{
