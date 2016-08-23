@@ -141,6 +141,10 @@ h5{
   z-index: 100;
 }
 
+.arrow{
+  width: 100%;
+}
+
 /************************************************************
                     H E A D E R
 *************************************************************/
@@ -154,6 +158,7 @@ header{
     letter-spacing: 2px;
     padding-top: 20px;
     line-height: 40px;
+    text-transform: uppercase;
 }
 
 .header-text-protectflow {
@@ -700,7 +705,7 @@ header{
 *************************************************************/
 .prefooter{
   position: relative;
-  bottom: 70px;
+  bottom: 67px;
   width: 100%;
   height: 70px;
   background-image: url(../images/prefooter.png);

@@ -4,6 +4,7 @@ const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync');
 const del = require('del');
 const wiredep = require('wiredep').stream;
+const connectPHP = require('gulp-connect-php');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -100,7 +101,7 @@ gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
   browserSync({
     notify: false,
     port: 9000,
-	open:false,
+  	open:false,
     server: {
       baseDir: ['.tmp', 'app'],
       routes: {
